@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.tree import DecisionTreeClassifier
 
-def prediction(TextExtracted):
+def prediction(TextExtracted): #upgrades: make the model already knowing of everything
     # csv data base transfer to an array
     df = pd.read_csv('/language-identification-datasets.csv')
 
